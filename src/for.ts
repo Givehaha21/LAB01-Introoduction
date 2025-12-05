@@ -1,11 +1,11 @@
-// let i = 0;
-// for (i = 0; i < 10; i++) {
-//   console.log(i);
-// }
+let names = ['Alice', 'Bob', 'Charlie', 'Diana', 'Ethan'];
+for (const person of names) {
+//   console.log(person);
 
-
-let color = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']
-for (let i = 0; i < color.length; i++) {
-  console.log(color[i])
+  if (person.length > 6) {
+    console.log(`สวัสดีคุณ ชื่อ ${person}`);
+  } else {
+    console.log(`Hello ${person}`);
+  }
 }
 
