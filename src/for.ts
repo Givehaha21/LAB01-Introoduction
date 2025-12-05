@@ -1,26 +1,23 @@
-// const greets = function greet(name: string) {
-//     return 'Hello2 ' + name
+// const add = (a:number,b:number):string => {
+//    const result =  a+b;
+//    return result.toString();
 // }
 
-// console.log(greets('John'))
+// console.log(add(2,3),typeof add(2,3));
 
 
-// const greet = (name:string) => 'Hello ' + name 
 
-// console.log(greet('John'))
+const findmax = (findmax_list:number[]) =>{
 
-
-// const multiply = (x:number,y:number) => { return x * y }
-
-// console.log(multiply(5, 10)) 
-
-
-const cals = (x:number,y:number) => {
-    if(x>y){
-        return x 
-    } else{
-        return y
+    let max = 0;
+    for(let list of findmax_list){
+       if(list > max){
+        max = list;
+       }
     }
+    return max;
 }
 
-console.log(cals(5, 10))
+const findmax_list = [1,7,3,9,5,6,7,11,9,10];
+console.log(findmax(findmax_list));
+
