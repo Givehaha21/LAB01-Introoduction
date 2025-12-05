@@ -1,11 +1,15 @@
-let x =7
-if (x > 10) {
-  console.log('x is more than 10')
-} else if (x < 5){
-    console.log('x is less than 5')
+let scroe: number = 80;
+if (scroe > 80) {
+  console.log('Grade A');
+}
+else if(scroe > 60){
+    console.log('Grade B');
+}
+else if(scroe > 50){
+    console.log('Grade C');
 }
 else {
-  console.log('x is between 5 and 10')
+    console.log('Grade F');
 }
 
 
