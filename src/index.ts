@@ -1,12 +1,3 @@
-
-// console.log('type of X: ',typeof x);
-
-let x:number | string = 10;
-// x = 'hello';
-if (typeof x === 'string') {
-   console.log('x is a string');
-}else if (typeof x === 'number') {
-   console.log('x is a number');
-}else {
-   console.log('x is neither a string nor a number');
-}
+let i = 0
+i = 'hello' as any
+console.log(i)
