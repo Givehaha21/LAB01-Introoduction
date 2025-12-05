@@ -2,7 +2,7 @@ interface Person {
    name: string;
    age: number;
 }
-let a: Person = {
+const a: Person = {
    name: 'Alice',
    age: 30
 }
