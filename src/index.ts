@@ -1,9 +1,15 @@
-//let สามารถเปลี่ยนค่าได้
-let a = 10;
-a = 15;
+interface Person {
+   name: string;
+   age: number;
+}
+let a: Person = {
+   name: 'Alice',
+   age: 30
+}
+// console.log(`Name: ${a.name}, Age: ${a.age}`);
+a = {
+   name: 'Bob',
+   age: 25
+}
 console.log(a);
 
-//cost ไม่สามารถเปลี่ยนค่าได้
-const x = 10;
-// x = 15;
-console.log(x);
