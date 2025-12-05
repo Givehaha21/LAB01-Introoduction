@@ -1,15 +1,5 @@
-interface Person {
-   name: string;
-   age: number;
-}
+const list = [1, 2, 3, 4, 5];
+console.log(list);
 
-const a: Person = {
-   name: 'Alice',
-   age: 30
-}
-
-a.name = 'Bob'
-a.age = 25
-console.log(a)
 
 
