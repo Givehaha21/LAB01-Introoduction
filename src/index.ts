@@ -1,5 +1,11 @@
-const list = [1, 2, 3, 4, 5];
-console.log(list);
+
+let x:number = 12
+if (x > 10) {
+  console.log('x is more than 10')
+}else {
+  console.log('x is less than 10')
+}
+
 
 
 
