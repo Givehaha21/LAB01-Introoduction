@@ -1,11 +1,10 @@
-let names = ['Alice', 'Bob', 'Charlie', 'Diana', 'Ethan'];
-for (const person of names) {
-//   console.log(person);
+// let color = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']  
+// for (const c of color) {  
+//   console.log(c);  
+// } 
 
-  if (person.length > 6) {
-    console.log(`สวัสดีคุณ ชื่อ ${person}`);
-  } else {
-    console.log(`Hello ${person}`);
-  }
-}
 
+let color = ['red', 'blue', 'green', 'yellow', 'orange', 'purple']  
+for (const index in color) {  
+  console.log(`Index: ${index}, Value: ${color[index]}`);  
+} 
