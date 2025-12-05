@@ -1,11 +1,26 @@
-function cal(score_list:number[]){
-    
-    let sum_score = 0;
-    for(let score of score_list){
-        sum_score += score;  
-}
-return sum_score
+// const greets = function greet(name: string) {
+//     return 'Hello2 ' + name
+// }
+
+// console.log(greets('John'))
+
+
+// const greet = (name:string) => 'Hello ' + name 
+
+// console.log(greet('John'))
+
+
+// const multiply = (x:number,y:number) => { return x * y }
+
+// console.log(multiply(5, 10)) 
+
+
+const cals = (x:number,y:number) => {
+    if(x>y){
+        return x 
+    } else{
+        return y
+    }
 }
 
-let score_list = [90, 85, 78, 92, 88];
-   console.log("Total score:", cal(score_list));
+console.log(cals(5, 10))
